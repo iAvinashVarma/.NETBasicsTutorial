@@ -10,7 +10,6 @@
 			set { id = value; }
 		}
 
-
 		private string name;
 
 		public string Name
