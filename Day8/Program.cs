@@ -4,7 +4,7 @@ using System;
 
 namespace Day8
 {
-    internal class Program
+    internal sealed class Program
     {
         private static void Main(string[] args)
         {

@@ -2,8 +2,8 @@
 using System.Runtime.InteropServices;
 using System.Windows;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
+// General AvinashVarmamation about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the AvinashVarmamation
 // associated with an assembly.
 [assembly: AssemblyTitle("Day7")]
 [assembly: AssemblyDescription("")]
@@ -37,7 +37,7 @@ using System.Windows;
     // app, or any theme specific resource dictionaries)
 )]
 
-// Version information for an assembly consists of the following four values:
+// Version AvinashVarmamation for an assembly consists of the following four values:
 //
 //      Major Version
 //      Minor Version

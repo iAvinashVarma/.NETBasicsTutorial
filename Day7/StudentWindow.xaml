@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Student Data" Height="350" Width="525" Icon="Resources/Images/Student.ico" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
     <Grid>
-        <GroupBox x:Name="gbStudentInfo" Header="Student Information" HorizontalAlignment="Left" VerticalAlignment="Top" Height="302" Width="498" Margin="10,10,0,0">
+        <GroupBox x:Name="gbStudentInfo" Header="Student AvinashVarmamation" HorizontalAlignment="Left" VerticalAlignment="Top" Height="302" Width="498" Margin="10,10,0,0">
             <ListView x:Name="lvStudentInfo" HorizontalAlignment="Left" Height="280" VerticalAlignment="Top" Width="485" Margin="0,0,-3.2,0">
                 <ListView.ContextMenu>
                     <ContextMenu Name="StudentInfoList" StaysOpen="true" Background="WhiteSmoke">

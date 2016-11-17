@@ -1,15 +1,15 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
+// General AvinashVarmamation about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the AvinashVarmamation
 // associated with an assembly.
 [assembly: AssemblyTitle("Day4")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Infor")]
+[assembly: AssemblyCompany("AvinashVarma")]
 [assembly: AssemblyProduct("Day4")]
-[assembly: AssemblyCopyright("Copyright © Infor 2016")]
+[assembly: AssemblyCopyright("Copyright © AvinashVarma 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("642120fc-92be-483d-98e7-5f9442693a5a")]
 
-// Version information for an assembly consists of the following four values:
+// Version AvinashVarmamation for an assembly consists of the following four values:
 //
 //      Major Version
 //      Minor Version
