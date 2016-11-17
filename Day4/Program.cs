@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day4
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             #region Inheritance Concept
 
@@ -22,7 +18,7 @@ namespace Day4
             Company comTwo = new Employees();
             comTwo.CompanyName();
 
-            #endregion
+            #endregion Inheritance Concept
 
             #region Method Overloading and Operator Overloading
 
@@ -30,11 +26,11 @@ namespace Day4
             salOne.SetEmployeeSalary("April", 77.77);
             Salary salTwo = new Salary();
             salTwo.SetEmployeeSalary("May", 88.88);
-            // Overloading + Operator 
+            // Overloading + Operator
             Salary empTotal = salOne + salTwo;
             Console.WriteLine(empTotal.GetEmployeeSalary());
 
-            #endregion
+            #endregion Method Overloading and Operator Overloading
 
             #region Method Overriding
 
@@ -46,7 +42,7 @@ namespace Day4
             cTwo.Write();
             ((Company)eOne).Write();
 
-            #endregion
+            #endregion Method Overriding
 
             #region Method Hiding
 
@@ -58,8 +54,7 @@ namespace Day4
             coTwo.WriteLine();
             ((Company)emOne).WriteLine();
 
-
-            #endregion
+            #endregion Method Hiding
         }
     }
 }

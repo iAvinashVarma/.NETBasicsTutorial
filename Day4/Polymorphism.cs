@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Day4
+﻿namespace Day4
 {
     #region Polymorphism Concept
 
-    class Salary : Employees
+    internal class Salary : Employees
     {
         private string month;
         private double salary;
@@ -34,8 +28,8 @@ namespace Day4
             return empNew;
         }
 
-        #endregion
+        #endregion Operator Overloading
     }
 
-    #endregion
+    #endregion Polymorphism Concept
 }
