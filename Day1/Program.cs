@@ -1,5 +1,5 @@
 ﻿using System;
- 
+
 namespace Day1
 {
     internal class Program

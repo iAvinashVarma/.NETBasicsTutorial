@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Day5
@@ -61,17 +55,20 @@ namespace Day5
             int.TryParse(tbNumberOne.Text, out tbOne);
             int.TryParse(tbNumberTwo.Text, out tbTwo);
             int.TryParse(tbNumberThree.Text, out tbThree);
-            switch(cbMathProcess.SelectedIndex)
+            switch (cbMathProcess.SelectedIndex)
             {
                 case 0:
                     tbResult.Text = (tbOne + tbTwo + tbThree).ToString();
                     break;
+
                 case 1:
                     tbResult.Text = (tbOne * tbTwo * tbTwo).ToString();
                     break;
+
                 case 2:
                     tbResult.Text = (tbOne - tbTwo - tbThree).ToString();
                     break;
+
                 default:
                     tbResult.Text = "0";
                     break;

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Day3
+﻿namespace Day3
 {
     public class Conversion
     {
         internal int numeric1, numeric2;
+
         public Conversion(int num1, int num2)
         {
             numeric1 = num1;
@@ -33,9 +28,9 @@ namespace Day3
         }
     }
 
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             #region Reference Type (string) to Value Type (int)
 
@@ -63,7 +58,7 @@ namespace Day3
             //Int32.TryParse(stringThree, out numThree3);
             //Int32.TryParse(stringFour, out numFour3);
 
-            #endregion
+            #endregion Reference Type (string) to Value Type (int)
 
             #region Value Type to Value Type
 
@@ -78,9 +73,10 @@ namespace Day3
             //float floatingThree = 333.33F;
             //int integralThree = (int)floatingThree;
 
-            #endregion
+            #endregion Value Type to Value Type
 
             #region UserDefined Conversion
+
             //Conversion conversion1 = ;
             Conversion implicitConversion = 25;
             int implicitMultiplication = implicitConversion.GetMultiplication();
@@ -88,7 +84,7 @@ namespace Day3
             Conversion explicitConversion = 16;
             float value = (float)explicitConversion;
 
-            #endregion
+            #endregion UserDefined Conversion
         }
     }
 }

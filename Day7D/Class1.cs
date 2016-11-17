@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Day7D
+﻿namespace Day7D
 {
     public class Class1
     {

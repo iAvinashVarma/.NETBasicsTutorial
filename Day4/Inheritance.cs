@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day4
 {
     #region Inheritance Concept
 
-    class Company
+    internal class Company
     {
         internal void CompanyName()
         {
@@ -22,7 +18,7 @@ namespace Day4
             Console.WriteLine("Company Class (Base Class).");
         }
 
-        #endregion
+        #endregion Method Overriding
 
         #region Method Hiding or Shadowing
 
@@ -31,10 +27,10 @@ namespace Day4
             Console.WriteLine("Company Class (Base Class) - Hide Process.");
         }
 
-        #endregion
+        #endregion Method Hiding or Shadowing
     }
 
-    class Employees : Company
+    internal class Employees : Company
     {
         private string employeeName;
         private int employeeId;
@@ -76,7 +72,7 @@ namespace Day4
             return data;
         }
 
-        #endregion
+        #endregion Method Overloading
 
         #region Method Overriding
 
@@ -85,7 +81,7 @@ namespace Day4
             Console.WriteLine("Employees Class (Derived Class).");
         }
 
-        #endregion
+        #endregion Method Overriding
 
         #region Method Hiding or Shadowing
 
@@ -94,8 +90,8 @@ namespace Day4
             Console.WriteLine("Company Class (Child Class) - Hide Process.");
         }
 
-        #endregion
+        #endregion Method Hiding or Shadowing
     }
 
-    #endregion
+    #endregion Inheritance Concept
 }
