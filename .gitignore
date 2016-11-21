@@ -17,3 +17,4 @@
 /.vs/Tutorial/v14
 /Day7/bin/Debug
 /Day7/obj/Debug
+*.bld
