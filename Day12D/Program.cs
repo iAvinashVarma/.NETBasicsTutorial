@@ -10,7 +10,7 @@ namespace Day12D
 
             Predicate<int> isEven = x => x % 2 == 0;
 
-            if (isEven.Invoke(21))
+            if (isEven(21))
             {
                 Console.WriteLine("Even");
             }
