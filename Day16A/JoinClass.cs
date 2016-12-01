@@ -19,6 +19,7 @@ namespace Day16A
                                         CountryName = co.CountryName,
                                         CitizenName = ci.CitizenName
                                     });
+
             Console.WriteLine("{0}Join using Lamda:{0}", Environment.NewLine);
 
             foreach (var item in joinList)

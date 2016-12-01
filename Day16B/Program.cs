@@ -1,6 +1,6 @@
 ﻿using Day16A;
 
-namespace Day16C
+namespace Day16B
 {
     public class Program
     {

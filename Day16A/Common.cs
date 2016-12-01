@@ -17,9 +17,9 @@ namespace Day16A
             {
                 new Citizen() { CitizenId = 1, CitizenName = "Ganguly", PhoneNumber="1234567890", CountryId=1 },
                 new Citizen() { CitizenId = 2, CitizenName = "Modi", PhoneNumber="98765456787", CountryId=1 },
-                new Citizen() { CitizenId = 3, CitizenName="Fidel Castro", PhoneNumber="23456542112", CountryId=4 },
-                new Citizen() { CitizenId = 4, CitizenName="Putin", PhoneNumber="3456543234", CountryId=2 },
-                new Citizen() { CitizenId = 5, CitizenName="Benjamin", PhoneNumber="972345676", CountryId=3 }
+                new Citizen() { CitizenId = 3, CitizenName = "Fidel Castro", PhoneNumber="23456542112", CountryId=4 },
+                new Citizen() { CitizenId = 4, CitizenName = "Putin", PhoneNumber="3456543234", CountryId=2 },
+                new Citizen() { CitizenId = 5, CitizenName = "Benjamin", PhoneNumber="972345676", CountryId=3 }
             };
 
         //Country country = new Country();
