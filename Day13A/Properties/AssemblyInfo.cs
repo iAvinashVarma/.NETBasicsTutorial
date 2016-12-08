@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-// General AvinashVarmamation about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the AvinashVarmamation
+// General information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Day13A")]
 [assembly: AssemblyDescription("")]
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("34be5e75-7a4c-41e3-93e1-96ef4ea3ab5c")]
 
-// Version AvinashVarmamation for an assembly consists of the following four values:
+// Version information for an assembly consists of the following four values:
 //
 //      Major Version
 //      Minor Version
